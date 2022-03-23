@@ -14,6 +14,16 @@
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
         <a-asset-item id="imgOne" src="object/scene.gltf" crossOrigin="anonymous"> </a-asset-item>
+        <a-entity position='0 0.73 0' geometry="primitive: plane; width:0.5; height: auto" material="color: blue"
+            text="value: Pirate Ship : RS. 3000.0"></a-entity>
+        <a-entity position='0 0.7 0' geometry="primitive: plane; width:0.5; height: auto" material="color: red"
+            text="value: Rolls-Royce company (PVT) Ltd"></a-entity>
+        <a-entity scale=".0003 .0003 .0003">
+            <a-entity gltf model="#imgOne" scale="-1 1 1" crossOrigin="anonymous">
+                <a-animation attribute="rotation" to="0 360 0" dur="9000" repeat="indefinite" easing="linear">
+                </a-animation>
+            </a-entity>
+        </a-entity>
         <a-marker-camera preset='hiro'></a-marker-camera>
     </a-scene>
 </body>
