@@ -10,9 +10,13 @@
 
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
-        <a-marker preset="hiro">
-            <a-image id="image" src="mario.png" position="0 0 0" rotation="-90 0 0"></a-image>
-        </a-marker>
+        <a-marker type='pattern' url='pattern-1.patt'>
+            <a-image src="sigiriya.png"
+              position= "0 1 0"
+              scale= "1 1 1"
+              rotation="0 2 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 7000"
+            />
+          </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
 </body>
