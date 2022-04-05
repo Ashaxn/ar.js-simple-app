@@ -2,38 +2,38 @@
 <html>
 
 <head>
-    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 
 <body style="margin : 0px; overflow: hidden;">
-    <a-scene embedded arjs>
-        <a-marker type='pattern' url='pattern-1.patt'>
-            <a-image src="sigiriya.png"
-              position= "0 0 0"
-              scale= "2 1 1"
-              rotation="-90 0 0"
-            />
-            <a-entity
-            position="0 -0.73 0"
-            geometry="primitive: plane; width: 1; height: auto"
-            material="color: #EBEBEB"
-            text="color: #373737; value: \n Sigiriya \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
-          </a-marker>
-          <a-marker type='pattern' url='pattern-2.patt'>
-            <a-image src="templeoftooth.png"
-              position= "0 0 0"
-              scale= "1 1 1"
-              rotation="-90 0 0"
-            />
-            <a-entity
-            position="0 -0.73 0"
-            geometry="primitive: plane; width: 1; height: auto"
-            material="color: #EBEBEB"
-            text="color: #373737; value: \n Maligawa \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
-          </a-marker>
-        <a-entity camera></a-entity>
-    </a-scene>
+  <a-scene embedded arjs>
+    <a-marker type='pattern' url='pattern-1.patt'>
+      <a-image src="sigiriya.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: #EBEBEB"
+        text="color: #373737; value: \n Sigiriya \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
+    </a-marker>
+    <a-marker type='pattern' url='pattern-2.patt'>
+      <a-image src="templeoftooth.png" position="0 0 0" scale="1 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: #EBEBEB"
+        text="color: #373737; value: \n Maligawa \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+    <a-marker type='pattern' url='pattern-3.patt'>
+      <a-image src="unawatuna.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: #EBEBEB"
+        text="color: #373737; value: \n Unawatuna \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
+    </a-marker>
+    <a-marker type='pattern' url='pattern-4.patt'>
+      <a-image src="knuckles.png" position="0 0 0" scale="1 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: #EBEBEB"
+        text="color: #373737; value: \n Knuckles \n\n Subawickrama H.D.A.E. \n\n IT19063560 \n\n"></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+
 </body>
+
 </html>
