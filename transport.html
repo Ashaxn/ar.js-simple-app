@@ -8,17 +8,30 @@
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 
-<body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs>
-        <a-marker type='pattern' url='pattern-1.patt'>
-            <a-image src="sigiriya.png"
-              position= "0 0 0"
-              scale= "1 1 1"
-              rotation="-90 0 0"
-            />
-          </a-marker>
-        <a-entity camera></a-entity>
-    </a-scene>
+<body style="margin : 0px; overflow: hidden;">
+  <a-scene embedded arjs>
+    <a-marker type='pattern' url='pattern-13.patt'>
+      <a-image src="bus.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: black"
+        text="color: #fff; value: \n Rent a Bus \n\n Danthanarayana J.N. \n\n IT19103532 \n\n"></a-entity>
+    </a-marker>
+    <a-marker type='pattern' url='pattern-14.patt'>
+      <a-image src="car.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: black"
+        text="color: #fff; value: \n Rent a Car \n\n Danthanarayana J.N. \n\n IT19103532 \n\n"></a-entity>
+    </a-marker>
+    <a-marker type='pattern' url='pattern-15.patt'>
+      <a-image src="scooter.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: black"
+        text="color: #fff; value: \n Rent a Scooter \n\n Danthanarayana J.N. \n\n IT19103532 \n\n"></a-entity>
+    </a-marker>
+    <a-marker type='pattern' url='pattern-16.patt'>
+      <a-image src="van.png" position="0 0 0" scale="2 1 1" rotation="-90 0 0" />
+      <a-entity position="0 -0.73 0" geometry="primitive: plane; width: 1; height: auto" material="color: black"
+        text="color: #fff; value: \n Rent a Van \n\n Danthanarayana J.N. \n\n IT19103532 \n\n"></a-entity>
+    </a-marker>
+      <a-entity camera></a-entity>
+  </a-scene>
 </body>
 
 </html>
